@@ -10,9 +10,9 @@ func main() {
 	names[1] = "Vespri"
 	names[2] = "Wijaya"
 
-	fmt.Println("Data pertama :", names[0])
-	fmt.Println("Data kedua :", names[1])
-	fmt.Println("Data ketiga :", names[2])
+	fmt.Println("First data :", names[0])
+	fmt.Println("Second data :", names[1])
+	fmt.Println("Third data :", names[2])
 	fmt.Println("All data :", names)
 
 	// Array 2
@@ -22,9 +22,18 @@ func main() {
 		16,
 		18,
 	}
-	fmt.Println("Data pertama :", values[0])
-	fmt.Println("Data kedua :", values[1])
-	fmt.Println("Data ketiga :", values[2])
-	fmt.Println("Data ketiga :", values[3])
+	fmt.Println("First data :", values[0])
+	fmt.Println("Second data :", values[1])
+	fmt.Println("Third data :", values[2])
+	fmt.Println("Fourth data :", values[3])
 	fmt.Println("All data :", values)
+
+	// Function Array
+	// len
+	fmt.Println("Length names's array = ", len(names))
+	fmt.Println("Length values's array = ", len(values))
+	// change array data
+	values[0] = 11
+	fmt.Println("All data :", values)
+
 }

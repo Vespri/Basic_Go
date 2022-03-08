@@ -11,7 +11,7 @@ func main() {
 	var a = 50
 	var b = 10
 	var c = a - b
-	fmt.Println("50 - 10 =", c)
+	fmt.Println(a, "-", b, "=", c)
 
 	// Multiplication
 	var e = 6

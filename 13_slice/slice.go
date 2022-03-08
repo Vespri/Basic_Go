@@ -15,7 +15,7 @@ func main() {
 	var slice1 = days[1:4]
 	fmt.Println(slice1)
 
-	fmt.Print("Function Slice (len and cap)\n")
+	fmt.Print("\n")
 
 	// Function slice
 	// len (length)
@@ -23,7 +23,7 @@ func main() {
 	// cap (capacity)
 	fmt.Println(cap(slice1))
 
-	fmt.Print("Function Slice (append)\n")
+	fmt.Print("\n")
 
 	// append (new slice)
 	var slice2 = days[5:]
@@ -50,7 +50,7 @@ func main() {
 	fmt.Println(slice4) // [Kamis Kresna Saturday]
 	fmt.Println(days)   // [Senin Selasa Rabu Kamis Kresna Saturday Busy]
 
-	fmt.Print("Function Slice (make slice)\n")
+	fmt.Print("\n")
 
 	// make slice
 	newSlice := make([]string, 2, 5)
@@ -62,14 +62,14 @@ func main() {
 	fmt.Println(len(newSlice))
 	fmt.Println(cap(newSlice))
 
-	fmt.Print("Function Slice (copy slice)\n")
+	fmt.Print("\n")
 
 	// copy slice
 	copySlice := make([]string, len(newSlice), cap(newSlice))
 	copy(copySlice, newSlice)
 	fmt.Println(copySlice)
 
-	fmt.Print("Array vs Slice\n")
+	fmt.Print("\n")
 
 	// Array vs Slice
 	Array := [...]int{1, 2, 3, 4}

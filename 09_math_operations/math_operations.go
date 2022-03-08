@@ -17,7 +17,7 @@ func main() {
 	var e = 6
 	var f = 2
 	var g = e * f
-	fmt.Println("6 * 2 =", g)
+	fmt.Println(e, "*", f, "=", g)
 
 	// Division
 	var div = 96 / 6
